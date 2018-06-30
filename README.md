@@ -7,7 +7,7 @@
 使用方法，以ES2015的方式为例：  
 
 ```javascript
-import AppDownload from 'AppDownload';
+import AppDownload from 'tencent-downapp';
 
 var downapp = new AppDownload({
     openUrl: 'qqnews://article_9527?nm=RSS2018061501588400',

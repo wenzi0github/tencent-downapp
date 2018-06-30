@@ -1,6 +1,6 @@
 {
   "name": "tencent-downapp",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "集成了微信、QQ、腾讯视频、QQ音乐和腾讯动漫等APP的api，用来打开和下载第三方的api",
   "main": "dist/index.js",
   "repository": "https://github.com/wenzi0github/tencent-downapp.git",
