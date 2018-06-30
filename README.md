@@ -45,7 +45,7 @@ document.querySelector('.btn').addEventListener('click', function(){
 以下参数均为必填参数
 
 |    名称       | 说明 | 备注 |
-| -----------  | --- |
+| -----------  | --- ||
 | openUrl      | 打开地址 | 可以是scheme地址或者http地址，http地址时直接进行跳转 |
 | packageName  | APP的包名 ||
 | downloadUrl  | Android系统里APP的下载地址 ||
