@@ -1,9 +1,11 @@
 import resolve from 'rollup-plugin-node-resolve';
 import babel from 'rollup-plugin-babel';
 
+const config = require( './package' );
+
 const banner =
   '/*!\n' +
-  ' * AppDownload v' + '0.0.1' + '\n' +
+  ' * AppDownload v' + config.version + '\n' +
   ' * last update: ' + (new Date()).toLocaleDateString() + ', author: skeetershi\n' +
   ' * Released under the MIT License.\n' +
   ' */'

@@ -1,5 +1,3 @@
-const version = '0.0.1';
-
 /**
  * get script
  * @param {*} url 
@@ -162,7 +160,6 @@ class AppDownload{
             appleStoreId : params.appleStoreId,
             appName : params.appName,
             downLogo : params.downLogo,
-            version: version,
             wx_download_id: '',
             isInstalled : false,
         };
