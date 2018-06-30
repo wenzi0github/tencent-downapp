@@ -22,7 +22,7 @@ var downapp = new AppDownload({
 // 监听
 downapp.on('installStart', function(){
     // 开始下载
-    alert( '开始下载 );
+    alert( '开始下载' );
 }).on('downIn3App', function(){
     // 在浏览器等环境中，无法打开指定的APP时
     alert( 'downIn3App' );
@@ -79,7 +79,7 @@ Android下开始安装时触发
 // 开始下载时触发
 downapp.on('installStart', function(){
     // 开始下载
-    alert( '开始下载 );
+    alert( '开始下载' );
 })
 ```
 
@@ -103,7 +103,7 @@ Android下完成安装时触发
 // 开始下载时触发
 downapp.on('installSuccess', function(){
     // 开始下载
-    alert( '下载完成 );
+    alert( '下载完成' );
 })
 ```
 
